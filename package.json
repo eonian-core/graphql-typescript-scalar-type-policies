@@ -1,6 +1,6 @@
 {
   "name": "@eonian/graphql-typescript-scalar-type-policies",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "module": "dist/index.esm.min.js",
   "browser": "dist/index.umd.min.js",
   "main": "dist/index.cjs.min.js",
