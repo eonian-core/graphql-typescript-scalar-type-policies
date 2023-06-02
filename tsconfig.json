@@ -2,11 +2,12 @@
   "compilerOptions": {
     "target": "es2018",
     "lib": ["esnext"],
-    "module": "commonjs",
+    "module": "ESNext",
     "strict": true,
     "esModuleInterop": false,
     "skipLibCheck": true,
-    "outDir": "build"
+    "outDir": "dist",
+    "moduleResolution": "node",
   },
   "includes": ["src"],
   "exclude":["integration"]
