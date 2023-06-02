@@ -1,12 +1,12 @@
 {
   "name": "@eonian/graphql-typescript-scalar-type-policies",
-  "version": "1.0.2",
-  "main": "dist/index.js",
+  "version": "1.0.3",
+  "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
   "type": "module",
   "scripts": {
-    "build": "rollup --config",
+    "build": "rm -rf ./dist && rollup --config",
     "test": "./node_modules/.bin/jest --watch",
     "coverage": "./node_modules/.bin/jest --collectCoverage",
     "format": "prettier --write 'src/**/*.{ts,js,tsx,jsx}'",
