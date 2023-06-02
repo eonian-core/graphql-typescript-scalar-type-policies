@@ -1,9 +1,9 @@
 {
   "name": "@eonian/graphql-typescript-scalar-type-policies",
-  "version": "1.0.1",
-  "module": "dist/index.esm.min.js",
-  "browser": "dist/index.umd.min.js",
-  "main": "dist/index.cjs.min.js",
+  "version": "1.0.2",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
   "type": "module",
   "scripts": {
     "build": "rollup --config",

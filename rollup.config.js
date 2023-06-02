@@ -12,13 +12,8 @@ export default {
     },
     {
       file: pkg.module,
-      format: "es", // the preferred format
-    },
-    {
-      file: pkg.browser,
-      format: "iife",
-      name: "MyPackage", // the global which can be used in a browser
-    },
+      format: "es",
+    }
   ],
   external: [...Object.keys(pkg.dependencies || {})],
   plugins: [typescript(), terser()],
