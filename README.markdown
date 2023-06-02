@@ -1,4 +1,4 @@
-[![NPM](https://img.shields.io/npm/v/@homebound/graphql-typescript-custom-type-field-policies)](https://www.npmjs.com/package/@homebound/graphql-typescript-simple-resolvers)
+[![NPM](https://img.shields.io/npm/v/@eonian/graphql-typescript-scalar-type-policies)](https://www.npmjs.com/package/@eonian/graphql-typescript-scalar-type-policies)
 
 This is a [graphql-code-generator](https://graphql-code-generator.com/) plugin that generates type policies for every field that uses custom scalars.
 
