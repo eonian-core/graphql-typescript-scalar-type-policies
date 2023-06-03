@@ -15,4 +15,8 @@
   "includes": [
     "src"
   ],
+  "exclude": [
+    "demo/gql",
+    "dist"
+  ]
 }

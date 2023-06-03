@@ -8,7 +8,8 @@
     "build": "rm -rf ./dist && rollup --config",
     "test": "./node_modules/.bin/jest --watch",
     "coverage": "./node_modules/.bin/jest --collectCoverage",
-    "format": "prettier --write 'src/**/*.{ts,js,tsx,jsx}'"
+    "format": "prettier --write 'src/**/*.{ts,js,tsx,jsx}'",
+    "gen:gql-types": "graphql-codegen --config ./demo/codegen.ts"
   },
   "dependencies": {
     "@graphql-codegen/plugin-helpers": "^2.6.2",
@@ -16,7 +17,10 @@
     "ts-poet": "^5.0.1"
   },
   "devDependencies": {
-    "@graphql-codegen/cli": "^2.11.8",
+    "@graphql-codegen/cli": "3.3.0",
+    "@graphql-codegen/client-preset": "3.0.0",
+    "@graphql-codegen/typescript": "^3.0.3",
+    "@graphql-codegen/typescript-resolvers": "^3.2.0",
     "@rollup/plugin-terser": "^0.4.3",
     "@rollup/plugin-typescript": "^11.1.1",
     "graphql": "^15.5.1",
