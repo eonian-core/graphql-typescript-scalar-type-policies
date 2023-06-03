@@ -1,9 +1,9 @@
-import typescript from "@rollup/plugin-typescript";
-import terser from "@rollup/plugin-terser";
+const typescript = require("@rollup/plugin-typescript");
+const terser = require("@rollup/plugin-terser");
 
-import pkg from "./package.json" assert { type: "json" };
+const pkg = require("./package.json");
 
-export default {
+module.exports = {
   input: "src/index.ts",
   output: [
     {
@@ -13,7 +13,7 @@ export default {
     {
       file: pkg.module,
       format: "es",
-    }
+    },
   ],
   external: [...Object.keys(pkg.dependencies || {})],
   plugins: [typescript(), terser()],
