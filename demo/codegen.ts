@@ -18,6 +18,7 @@ const config: CodegenConfig = {
         {
           "dist/index.cjs.js": {
             scalarTypePolicies: {
+              // File path should be relative to the generated "graphql.ts"
               BigInt: "../bigIntPolicy#bigIntPolicy",
             },
           },
