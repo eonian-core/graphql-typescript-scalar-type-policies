@@ -1,1 +1,1 @@
-const bigIntPolicy = {};
+export const bigIntPolicy = {};

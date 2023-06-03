@@ -18,7 +18,7 @@ const config: CodegenConfig = {
         {
           "dist/index.cjs.js": {
             scalarTypePolicies: {
-              BigInt: "./bigIntPolicy#bigIntPolicy",
+              BigInt: "../bigIntPolicy#bigIntPolicy",
             },
           },
         },
